@@ -21,7 +21,6 @@
 Implement the following in addition to the basic requirements:
 
 
-- Implement ARIA (Accessible Rich Internet Applications) attributes to enhance the accessibility of interactive elements such as buttons, menus, and forms.
 - Use proper form labeling techniques, associating labels with their respective form controls.
 - Ensure that the website is fully navigable and usable using only a keyboard, without relying on mouse interactions.
 
