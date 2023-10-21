@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Arial, sans-serif";
 }
 
 /* Header Styles */
@@ -14,45 +14,39 @@ header {
   background-color: #f5f5f5;
   z-index: 10;
 }
-
-.header .nav-items {
+header .nav-items {
   background-color: #f5f5f5;
-  text-align: left;
-  background-color: #555;
+  text-align: center;
+  background-color: #f5f5f5;
   position: fixed;
   top: 0;
-  height: 60px;
-  line-height: 60px;
-  width: 100vw;
+  height: 30px;
+  line-height: 150px;
+  width: 20vw;
 }
-
-.nav-items ul {
+header .nav-items ul {
   list-style: none;
   padding: 10px;
   display: flex;
   gap: 1rem;
 }
-
-.nav-items li {
+header .nav-items ul li {
   display: inline;
   margin: 3px;
 }
-
-.nav-items a {
+header .nav-items ul li a {
   text-decoration: none;
   color: #000;
   float: left;
   text-align: center;
 }
-
-.logo {
+header .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 30px;
 }
 
-/* Hero Image Styles */
 .hero-image {
   display: flex;
   flex-direction: column;
@@ -65,7 +59,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .hero-image h1 {
   font-family: sans-serif;
   font-size: 60px;
@@ -74,14 +67,12 @@ header {
   text-transform: uppercase;
   margin: 0;
 }
-
 .hero-image p {
   font-size: 20px;
   color: #d1d1d1;
   text-transform: uppercase;
   margin: 20px 0;
 }
-
 .hero-image button {
   background-color: #e5d8c6;
   color: #5a4540;
@@ -99,7 +90,6 @@ header {
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
 }
 
-/* Products Section Styles */
 .products {
   display: flex;
   justify-content: space-around;
@@ -114,7 +104,6 @@ header {
   align-items: center;
   padding: 0 40px;
 }
-
 .product i {
   width: fit-content;
   font-size: 50px;
@@ -123,15 +112,13 @@ header {
   border: 2px solid #333333;
   padding: 12px;
 }
-
-.product-title {
+.product .product-title {
   font-size: 20px;
   color: #333333;
   text-transform: uppercase;
   margin: 10px 0;
 }
-
-.product-description {
+.product .product-description {
   font-size: 15px;
   color: #585858;
   margin: 10px 0;
@@ -149,7 +136,6 @@ header {
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
 }
 
-/* Reviews Section Styles */
 .row {
   height: 20vh;
   background-color: #f5f5f5;
@@ -182,7 +168,6 @@ main {
   background-color: #f8f4f4;
 }
 
-/* Footer Styles */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -209,14 +194,12 @@ main {
   align-items: center;
   padding: 0 40px;
 }
-
 .bottom-links .links span {
   font-size: 20px;
   color: #72615b;
   text-transform: uppercase;
   margin: 10px 0;
 }
-
 .bottom-links .links a {
   text-decoration: none;
   color: #72615b;
